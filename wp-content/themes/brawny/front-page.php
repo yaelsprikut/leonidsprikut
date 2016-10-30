@@ -37,7 +37,7 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 	if( get_theme_mod('enable_service',true) ) {
 
 		$output = '';
-		$output = '<div class="services">';
+		$output = '<div class="services" style="background-color:white;padding:60px 0 60px;"><div class="container"><h2 class="site-title" align="center">About the Conservatory</h2><p align="center"><img src="https://gracesreception.files.wordpress.com/2016/02/gold-underline-2.png?w=1000" width="40%"></p>I teach woodwind and brass instruments, piano, and music theory at all levels, from beginner to professional. I prepare students for the Royal Conservatory practical examinations at all levels, as well as for auditions, local and international music competitions, and music festivals. I teach fundamentals of wind playing, including correct posture, breathing, articulation technique, fingerings, rhythm, and sight-reading skills. I strive to help students express themselves musically, as we discuss phrasing, dynamic control, and tone quality. The program of study is always carefully thought out and developed according to personal goals and objectives of each student.</div></div><div class="services">';
 		$output .= '<div class="container"><div class="sixteen columns">';
 
 		if ( get_theme_mod('service-icon-1') || get_theme_mod('service-title-1') || get_theme_mod('service-description-1') ) {

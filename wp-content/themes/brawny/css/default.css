@@ -2358,7 +2358,7 @@ h2.site-description {
     .flex-container .flex-caption h1, .flex-container .flex-caption h2, .flex-container .flex-caption h3, .flex-container .flex-caption h4, .flex-container .flex-caption h5, .flex-container .flex-caption h6, .flex-container .flex-caption p, .flex-container .flex-caption ul {
       margin: 0 0 .1em; }
     .flex-container .flex-caption h2, .flex-container .flex-caption h3, .flex-container .flex-caption h1, .flex-container .flex-caption h4, .flex-container .flex-caption h5 {
-      background-color: rgba(64, 41, 92, 0.3);
+      background-color: rgba(71, 56, 36, 0.66);
       color: #fff;
       padding: 15px 0;
       clear: both;
