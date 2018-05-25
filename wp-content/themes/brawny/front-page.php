@@ -69,26 +69,12 @@ if ( 'posts' == get_option( 'show_on_front' ) ) {
 			$output .= sprintf( __('<h3>Instruments</h3><p>Featured page description text : use the page excerpt or set your own custom text. Click  <a href="%1$s"target="_blank"> Customizer </a> and Goto Home => Sercice Section -2.</p>', 'brawny' ), admin_url('customize.php') );
 			$output .= '</div></div><!-- .one-third -->';
 		}
-		if ( get_theme_mod('service-icon-3') || get_theme_mod('service-title-3') || get_theme_mod('service-description-3') )  {
-			$output .= '<div class="one-third column" class="service">';
-			$output .= '<div class="service-title"><p><i class="' . esc_attr( get_theme_mod('service-icon-3') ) . '"></i></p>';
-			$output .= '</div>';
-			$output .= '<div class="service">' . '<h3>' . esc_html( get_theme_mod('service-title-3')  ) . '</h3>'. get_theme_mod('service-description-3') . '</div>';
-			$output .= '</div><!-- .one-third -->';
-		} else {
-			$output .= '<div class="one-third column" class="service">';
-			$output .= '<div class="service-title"><p><i class="fa fa-magic"></i></p>';
-			$output .= '</div>';
-			$output .= '<div class="service">';
-			$output .= sprintf( __('<h3>Our Music School</h3><p>Featured page description text : use the page excerpt or set your own custom text. Click  <a href="%1$s"target="_blank"> Customizer </a> and Goto Home => Sercice Section -3.</p>', 'brawny' ), admin_url('customize.php') );
-			$output .= '</div></div><!-- .one-third -->';
-		}
-
+}
 		$output .= '</div></div><!-- .container -->';
 		$output .= '</div><!-- .services -->';
 
 		echo $output;
-	}
+
 		 do_action('brawny_service_content_after');
 			   do_action('brawny_recent_post_before'); ?>
 			   <div id="content" class="site-content container">

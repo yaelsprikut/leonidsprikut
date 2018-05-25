@@ -150,7 +150,7 @@ a img {
   .container .sixteen.columns {
     width: 97.9%; }
   .container .one-third.column {
-    width: 31.25%; }
+    width: 32.25%; }
   .container .tow-thirds.column {
     width: 64.5%; }
   .container .offset-by-one {
@@ -752,7 +752,7 @@ a {
 5.2 Menus
 --------------------------------------------------------------*/
 #nav-wrap {
-  background-color: #282828; }
+  background-color: #331900; }
 
 .main-navigation div > ul > li > a {
   background: url("../images/divider.gif") no-repeat center right; }
@@ -1407,7 +1407,7 @@ ol.comment-list li.byuser article {
   color: #fff; }
 
 #header-top {
-  background: #282828;
+  background: #331900;
   overflow: hidden;
   padding: 10px 0;
   color: #fff; }
@@ -2056,7 +2056,7 @@ footer .share-box h3 {
   clear: both; }
 
 .scroll-to-top {
-  background: #41285b;
+  background: #331900;
   color: #fff;
   bottom: 3%;
   cursor: pointer;
@@ -2350,7 +2350,7 @@ h2.site-description {
   .flex-container .flex-caption {
     position: absolute;
     color: #41285b;
-    top: 10%;
+    top: 20% !important;
     left: 0;
     width: 100%;
     height: 90%;
@@ -2358,7 +2358,7 @@ h2.site-description {
     .flex-container .flex-caption h1, .flex-container .flex-caption h2, .flex-container .flex-caption h3, .flex-container .flex-caption h4, .flex-container .flex-caption h5, .flex-container .flex-caption h6, .flex-container .flex-caption p, .flex-container .flex-caption ul {
       margin: 0 0 .1em; }
     .flex-container .flex-caption h2, .flex-container .flex-caption h3, .flex-container .flex-caption h1, .flex-container .flex-caption h4, .flex-container .flex-caption h5 {
-      background-color: rgba(71, 56, 36, 0.66);
+      /* background-color: rgba(71, 56, 36, 0.66); */
       color: #fff;
       padding: 15px 0;
       clear: both;

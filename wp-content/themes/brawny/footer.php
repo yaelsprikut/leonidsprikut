@@ -19,7 +19,7 @@
 		<div class="footer-top">
 			<div class="container">
 				<div class="row">
-					<?php get_template_part( 'footer','widgets' ); ?>
+					<?php //get_template_part( 'footer','widgets' ); ?>
 				</div>
 			</div>
 		</div>
